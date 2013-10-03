@@ -6,10 +6,12 @@ This is a simple compiler for the programming language we have dubbed Q.
 Instructions
 ------------
 To compile, use build.sh. Your copy of g++ must support the standard flag  
-`gnu++11`.
+`gnu++11`. This will generate an executable called `compiler`. Run as you  
+would any unix program.
 
-To run the compiler, provide the input file assemblynames.txt. This file  
-contains the output files that my test cases will generate. 
+To run the compiler, provide the input file assemblynames.txt using input  
+redirection. This file contains the output files that my test cases will  
+generate. 
 
 The Q language specification is included below for your reference:
 
